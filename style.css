@@ -28,6 +28,113 @@ body {
     margin: 0 auto; /* pruh je na stránce vycentrovaný */
     background: white;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    font-family: 'Roboto', sans-serif;
 }
 
 /* ----- zde začni psát vlastní CSS ----- */
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.link-appka a {
+    text-transform: uppercase;
+}
+
+.menu div {
+    padding-right: 50px;
+}
+
+.menu div:hover {
+    font-weight: bold;
+}
+
+.banner {
+    background-image: url("./images/pozadi.jpg");
+    background-size: cover;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 30px;
+    position: relative;
+}
+
+.btn {
+    height: 50px;
+    width: 20%;
+    margin-right: 30px;
+}
+
+.btn:hover {
+    background-color: #48418e;
+    color: white;
+}
+
+.nadpis {
+    font-size: 80px;
+    color: white;
+    font-weight: 3px;
+}
+
+.heslo {
+    font-size: 30px;
+    color: white;
+    font-weight: 0.5px;
+    max-width: 380px;
+}
+
+.telefon {
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.popis {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
+
+/* .popis div {
+    flex: 1;
+} */
+
+.sloupek {
+    text-align: center;
+    margin: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.icona {
+    width: 50px;
+    height: 50px;
+}
+
+.sloupek-nadpis {
+    font-size: 18px;
+    color: #48418e;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.sloupek-popis {
+
+}
+
+.footer {
+    background-color: #48418e;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 12px;
+}
